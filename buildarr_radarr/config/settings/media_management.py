@@ -38,6 +38,7 @@ logger = getLogger(__name__)
 
 class ColonReplacement(BaseEnum):
     delete = "delete"
+    smart = "smart"
     dash = "dash"
     space_dash = "spaceDash"
     space_dash_space = "spaceDashSpace"
